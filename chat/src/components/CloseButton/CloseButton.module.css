@@ -1,0 +1,11 @@
+.close{
+    border: 0;
+    font-size: 1.5em;
+    background-color: white;
+}
+
+.close:hover {
+      color: #8a8a8a;
+      text-decoration: none;
+      cursor: pointer;
+    }

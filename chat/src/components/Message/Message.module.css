@@ -1,0 +1,17 @@
+.message{
+    margin: 1em;
+    text-align: left;
+}
+
+.message span{
+    display: block;
+    
+}
+
+.message div{
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+    padding: 0.5em 1em;
+    display: inline-block;
+    word-break: break-word;
+}

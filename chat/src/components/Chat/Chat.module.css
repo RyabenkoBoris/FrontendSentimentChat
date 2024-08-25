@@ -1,0 +1,44 @@
+.chat{
+    width: 60vmin;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px black;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head h1{
+    font-size: 2em;
+}
+
+.body{
+    overflow: auto;
+    height: 60vmin;
+}
+
+.send{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f0f0f0; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #c8c8c8; 
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a9a9a9; 
+  }
